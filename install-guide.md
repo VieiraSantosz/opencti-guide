@@ -83,18 +83,18 @@ nano .env
 
 Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 
-- OPENCTI_ADMIN_PASSWORD = changeme
-- OPENCTI_ADMIN_TOKEN = ChangeMe_UUIDv4
-- OPENCTI_BASE_URL = http://localhost:8080
-- OPENCTI_HEALTHCHECK_ACCESS_KEY = changeme
-- MINIO_ROOT_PASSWORD = changeme
-- RABBITMQ_DEFAULT_PASS = changeme
+- **OPENCTI_ADMIN_PASSWORD =** changeme
+- **OPENCTI_ADMIN_TOKEN =** ChangeMe_UUIDv4
+- **OPENCTI_BASE_URL =** http://localhost:8080
+- **OPENCTI_HEALTHCHECK_ACCESS_KEY =** changeme
+- **MINIO_ROOT_PASSWORD =** changeme
+- **RABBITMQ_DEFAULT_PASS =** changeme
 
 Ajuste que precisam ser feitos:
 
-- changeme: trocar por uma senha segura.
-- ChangeMe_UUIDv4: trocar por um UUID.
-- Localhost: trocar o localhost pelo IP do seu servidor
+- **changeme:** trocar por uma senha segura.
+- **ChangeMe_UUIDv4:** trocar por um UUID.
+- **Localhost:** trocar o localhost pelo IP do seu servidor
 
 Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
