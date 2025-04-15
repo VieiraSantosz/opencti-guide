@@ -78,6 +78,8 @@ cp .env.sample .env
 nano .env
 ```
 
+![image](https://github.com/user-attachments/assets/9b38afe3-2eb7-48e3-9261-26e12c66321a)
+
 
 Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 
