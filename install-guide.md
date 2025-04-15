@@ -94,12 +94,6 @@ Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 | `RABBITMQ_DEFAULT_PASS`          | Senha padrão do serviço RabbitMQ           | `SenhaRabbit@123`                         |
 
 
-**Importante:** Substitua todos os valores changeme por senhas seguras e gere um UUID para o token com:
-
-```bash
-uuidgen
-```
-
 Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
 ![image](https://github.com/user-attachments/assets/f22407a8-fc87-4fad-af4a-9f8812e97a91)
