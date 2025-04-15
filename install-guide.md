@@ -98,6 +98,8 @@ Ajuste que precisam ser feitos:
 
 Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
+![image](https://github.com/user-attachments/assets/0b942c85-8bab-4528-ac33-12203ea63ba3)
+
 
 **3. Iniciar os serviços do OpenCTI**
 
