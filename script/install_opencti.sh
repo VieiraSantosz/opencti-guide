@@ -1,13 +1,13 @@
 # !/bin/bash
 #
-# opencti.sh - faz a instalação da ferramenta OpenCTI (Threat Intelligence)
+# opencti.sh - faz a instalação da ferramenta OpenCTI (Cyber Threat Intelligence)
 #
 # Autor..: Wesley Santos  <wesleyv760@gmail.com>
 # Auxílio: Daniel Brandão <>
 #
 # -------------------------------------------------------------------------------------
 #
-# Este programa faz a instalação da ferramenta OpenCTI (Threat Intelligence), 
+# Este programa faz a instalação da ferramenta OpenCTI (Cyber Threat Intelligence), 
 # retornando o seu link de acesso, usuário e senha. 
 #
 
@@ -199,15 +199,15 @@ check_system_minimum () {
 }
 
 
-# Função para verificar se existem algum serviço do OpenCTI (Threat Intelligence)
+# Função para verificar se existem algum serviço do OpenCTI (Cyber Threat Intelligence)
 opencti_services () {
 
-    # Busca por serviços do OpenCTI (Threat Intelligence)
+    # Busca por serviços do OpenCTI (Cyber Threat Intelligence)
     SERVICES=$(sudo find / -type d -name "opencti*" 2>/dev/null)
 
-    # Verifica se encontrou algum serviço do OpenCTI (Threat Intelligence)
+    # Verifica se encontrou algum serviço do OpenCTI (Cyber Threat Intelligence)
     if [ -n "$SERVICES" ]; then
-        echo -e "\n\n⚠️ Foram encontrados serviços do OpenCTI (Threat Intelligence) ativo na sua máquina."
+        echo -e "\n\n⚠️ Foram encontrados serviços do OpenCTI (Cyber Threat Intelligence) ativo na sua máquina."
         echo -e "\nDeseja seguir com a instalação?"
         echo -e "OBS: O instalador irá remover o OpenCTI existente e instalar um novo."
         echo -e "\n(1) Seguir com a instalação"
@@ -218,17 +218,17 @@ opencti_services () {
         read -p "Escolha uma opção (1 ou 2): " OPC
 
         if [ "$OPC" == "1" ]; then
-            echo -e "\n\nRemovendo OpenCTI (Threat Intelligence) existente"
+            echo -e "\n\nRemovendo OpenCTI (Cyber Threat Intelligence) existente"
             opencti_remove
 
-            echo -e "\n\nInstalando os pacotes do novo OpenCTI (Threat Intelligence)"
+            echo -e "\n\nInstalando os pacotes do novo OpenCTI (Cyber Threat Intelligence)"
             opencti_packages
 
-            echo -e "\n\nInicinado os serviços do novo OpenCTI (Threat Intelligence)\n"
+            echo -e "\n\nInicinado os serviços do novo OpenCTI (Cyber Threat Intelligence)\n"
             opencti_server
         
         elif [ "$OPC" == "2" ]; then
-            echo -e "\n\nNão foi realizada a instalação do OpenCTI (Threat Intelligence)"
+            echo -e "\n\nNão foi realizada a instalação do OpenCTI (Cyber Threat Intelligence)"
             echo -e "\n\n-----------------------------------------------------------------------\n\n"
             exit 1
         
@@ -238,16 +238,16 @@ opencti_services () {
         fi
 
     else
-        echo -e "\n\nInstalando os pacotes do OpenCTI (Threat Intelligence)"
+        echo -e "\n\nInstalando os pacotes do OpenCTI (Cyber Threat Intelligence)"
         opencti_packages
 
-        echo -e "\n\nInicinado os serviços do OpenCTI (Threat Intelligence)\n"
+        echo -e "\n\nInicinado os serviços do OpenCTI (Cyber Threat Intelligence)\n"
         opencti_server
     fi
 }
 
 
-# Função para remover/desisntalar o OpenCTI (Threat Intelligence)
+# Função para remover/desisntalar o OpenCTI (Cyber Threat Intelligence)
 opencti_remove () {
     path_cti=$(find / -type f -name "docker-compose.dev.yml" | grep "opencti" | xargs -I {} dirname {})
 
@@ -285,7 +285,7 @@ opencti_packages () {
 }
 
 
-#Função para congifurar o OpenCTI (Threat Intelligence) e ativar os serviços 
+#Função para congifurar o OpenCTI (Cyber Threat Intelligence) e ativar os serviços 
 opencti_server () {
     opencti_diretory
 
@@ -305,14 +305,14 @@ opencti_server () {
 }
 
 
-# Função para mostrar os acessos do OpenCTI (Threat Intelligence)
+# Função para mostrar os acessos do OpenCTI (Cyber Threat Intelligence)
 opencti_acess () {
     get_ip
 
     user=$(grep "OPENCTI_ADMIN_EMAIL=" .env | cut -d '=' -f2)
     pass=$(grep "OPENCTI_ADMIN_PASSWORD=" .env | cut -d '=' -f2)
 
-    echo -e "\n\nAcesso ao OpenCTI (Threat Intelligence):"
+    echo -e "\n\nAcesso ao OpenCTI (Cyber Threat Intelligence):"
     echo -e "\nLink de acesso: http://${IP_LOCAL}:8080"
     echo -e "User..........: $user"
     echo -e "Senha.........: $password"
@@ -334,14 +334,14 @@ echo -e "\n\n-------------------------------------------------------------------
 ############################################################
 
 
-### Parte 2 - Instalar o Docker e o OpenCTI (Threat Intelligence)
+### Parte 2 - Instalar o Docker e o OpenCTI (Cyber Threat Intelligence)
 
 banner
 
-echo -e "\n\n------------ 1. Instalando o OpenCTI (Threat Intelligence) ------------"
+echo -e "\n\n--------- 1. Instalando o OpenCTI (Cyber Threat Intelligence) ---------"
 sleep 2
 opencti_services
-echo -e "\n\n------- Instalação do OpenCTI (Threat Intelligence) finalizada --------"
+echo -e "\n\n---- Instalação do OpenCTI (Cyber Threat Intelligence) finalizada -----"
 
 ############################################################
 
