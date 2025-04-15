@@ -136,7 +136,7 @@ http://<IP-do-Servidor:8080>
 ```
 
 
-**3. Login de inicial**
+**3. Login inicial**
 
  Utilize as credenciais que você definiu no .env para realizar o primeiro login na interface do OpenCTI.
  
