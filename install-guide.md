@@ -131,7 +131,6 @@ Após a instalação, abra o seu navegador e insira a seguinte URL para acessar 
 ```bash
 http://<IP-do-Servidor:8080>
 ```
-**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o OpenCTI foi instalado.
 
 
 **3. Login de inicial**
