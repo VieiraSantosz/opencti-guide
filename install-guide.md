@@ -98,10 +98,15 @@ Ajuste que precisam ser feitos:
 
 Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
-![image](https://github.com/user-attachments/assets/0b942c85-8bab-4528-ac33-12203ea63ba3)
+![image](https://github.com/user-attachments/assets/f22407a8-fc87-4fad-af4a-9f8812e97a91)
 
 
 **3. Iniciar os serviços do OpenCTI**
+
+```bash
+docker compose up -d
+```
+
 
 
 
