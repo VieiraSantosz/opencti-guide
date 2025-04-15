@@ -150,7 +150,13 @@ Depois de acessar o sistema, você poderá começar a explorar os recursos e cus
 ![image](https://github.com/user-attachments/assets/f3a49698-13aa-424b-ad18-68681b18a35c)
 
 
+## Solução de Problemas
+Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
 
+- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Grafana.
+- **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 8080 está aberta no firewall do servidor.
+- **Problemas com Docker:** Confirme se o Docker está em execução com **docker ps**.
+- **Containers não iniciam:** Containers não iniciam: Use o comando abaixo para ver os logs e identificar possíveis erros com **docker compose logs**.
 
 
 
