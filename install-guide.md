@@ -122,6 +122,8 @@ cat .env
 
 Seu login e senha de acesso será as duas primeiras informações do arquivo .env
 
+![image](https://github.com/user-attachments/assets/65bf2539-ca23-4e38-bb58-aedd142661b4)
+
 
 
 **2. Acessar a interface web**
