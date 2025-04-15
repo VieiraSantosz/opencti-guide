@@ -71,7 +71,7 @@ Após a instalação, o script fornecerá o link de acesso à interface web. Gua
 ## Primeiro acesso à plataforma
 **1. Acessar a interface web**
 
-Após a instalação, abra o seu navegador e insira o link de acesso à interface web fornecido pelo script para acessar a plataforma do OpenCTI:
+Após a instalação, o script fornecerá as credenciais para o primeiro acesso (login e senha) e o link de acesso à interface web. Guarde essas informações, pois você precisará delas para acessar a plataforma do OpenCTI.
 ```bash
 http://<IP-do-Servidor:8080>
 ```
