@@ -65,6 +65,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 **1. Baixar e configurar o projeto OpenCTI**
 
+Clone o repositório oficial com os arquivos Docker do OpenCTI, renomeie a pasta e entre no diretório para seguir com a configuração.
 ```bash
 git clone https://github.com/OpenCTI-Platform/docker
 mv docker opencti
@@ -73,6 +74,7 @@ cd opencti
 
 **2. Configurar o arquivo .env**
 
+Crie o arquivo .env com base no exemplo fornecido e edite-o com os dados necessários para o funcionamento da plataforma.
 ```bash
 cp .env.sample .env
 nano .env
@@ -101,11 +103,14 @@ Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
 **3. Iniciar os serviços do OpenCTI**
 
+Com o ambiente configurado, execute o comando abaixo para subir todos os containers do OpenCTI via Docker Compose.
 ```bash
 docker compose up -d
 ```
 
 ![image](https://github.com/user-attachments/assets/dc8b7e18-ccc9-48c0-b494-249c0c8b1099)
+
+**Nota**: O processo pode levar alguns minutos na primeira execução. Aguarde até que todos os serviços estejam ativos.
 
 
 
@@ -113,12 +118,12 @@ docker compose up -d
 
 **1. Login de acesso**
 
-Para saber seu login de acesso, realize o seguinte comandos dentro do diretório do opencti:
+Para consultar suas credenciais iniciais (e-mail e senha do admin), abra o arquivo .env com o seguinte comando:
 ```bash
 cat .env
 ```
 
-Seu login e senha de acesso será as duas primeiras informações do arquivo .env
+Seu login e senha de acesso serão as duas primeiras informações do arquivo .env.
 
 ![image](https://github.com/user-attachments/assets/65bf2539-ca23-4e38-bb58-aedd142661b4)
 
@@ -133,14 +138,14 @@ http://<IP-do-Servidor:8080>
 
 **3. Login de inicial**
 
-Utilize as credenciais fornecidas dentro do diretório do opencti para realizar o login na plataforma.
-
+ Utilize as credenciais que você definiu no .env para realizar o primeiro login na interface do OpenCTI.
+ 
 ![image](https://github.com/user-attachments/assets/2586658f-4d7b-4510-a327-93f518cefa62)
 
 
 **4. Após o Login**
 
-Depois de realizar o login, você estará pronto para começar a explorar e configurar a plataforma OpenCTI.
+Depois de acessar o sistema, você poderá começar a explorar os recursos e customizar a plataforma conforme suas necessidades.
 
 ![image](https://github.com/user-attachments/assets/f3a49698-13aa-424b-ad18-68681b18a35c)
 
