@@ -83,13 +83,16 @@ nano .env
 
 Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 
-Variável | Descrição | Valor Exemplo
-OPENCTI_ADMIN_PASSWORD | Senha do usuário admin | UmaSenhaForte123!
-OPENCTI_ADMIN_TOKEN | Token de autenticação da API | $(uuidgen)
-OPENCTI_BASE_URL | URL de acesso | http://<IP-DO-SERVIDOR>:8080
-OPENCTI_HEALTHCHECK_ACCESS_KEY | Chave para healthcheck | healthkey123
-MINIO_ROOT_PASSWORD | Senha do MinIO | SenhaMinIO@123
-RABBITMQ_DEFAULT_PASS | Senha do RabbitMQ | SenhaRabbit@123
+| Variável                          | Descrição                                  | Exemplo                                  |
+|----------------------------------|--------------------------------------------|------------------------------------------|
+| `OPENCTI_ADMIN_EMAIL`            | E-mail do usuário administrador padrão     | `admin@opencti.io`                        |
+| `OPENCTI_ADMIN_PASSWORD`         | Senha do usuário admin                     | `UmaSenhaForte123!`                       |
+| `OPENCTI_ADMIN_TOKEN`            | Token de autenticação da API               | `e3d55ae2-4c3f-4e1f-b8e9-8f1dc7f91c23`     |
+| `OPENCTI_BASE_URL`               | URL de acesso à plataforma OpenCTI         | `http://<IP-DO-SERVIDOR>:8080`            |
+| `OPENCTI_HEALTHCHECK_ACCESS_KEY`| Chave usada para healthchecks da aplicação | `healthcheckkey123`                      |
+| `MINIO_ROOT_PASSWORD`            | Senha de root do serviço MinIO (arquivos)  | `SenhaMinIO@123`                          |
+| `RABBITMQ_DEFAULT_PASS`          | Senha padrão do serviço RabbitMQ           | `SenhaRabbit@123`                         |
+
 
 **Importante:** Substitua todos os valores changeme por senhas seguras e gere um UUID para o token com:
 
