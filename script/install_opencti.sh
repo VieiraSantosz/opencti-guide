@@ -2,8 +2,8 @@
 #
 # opencti.sh - faz a instalação da ferramenta OpenCTI (Threat Intelligence)
 #
-# Autor..: Wesley Santos  <wesantos@goaheadit.com.br>
-# Auxílio: Daniel Brandão <dbrandao@goaheadit.com.br>
+# Autor..: Wesley Santos  <wesleyv760@gmail.com>
+# Auxílio: Daniel Brandão <>
 #
 # -------------------------------------------------------------------------------------
 #
