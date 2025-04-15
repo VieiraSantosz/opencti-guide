@@ -78,8 +78,6 @@ cp .env.sample .env
 nano .env
 ```
 
-![image](https://github.com/user-attachments/assets/16889bec-0592-4613-aa3a-1893b09faed8)
-
 
 Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 
@@ -101,7 +99,6 @@ Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
 **3. Iniciar os serviços do OpenCTI**
 
-![mceclip2](https://github.com/user-attachments/assets/930fea82-e6a9-4f63-8265-ae1e73898d62)
 
 
 ## Primeiro acesso à plataforma
@@ -115,7 +112,6 @@ cat .env
 
 Seu login e senha de acesso será as duas primeiras informações do arquivo .env
 
-![mceclip4](https://github.com/user-attachments/assets/958fa9e5-19c3-4ff8-a103-60a15e2d9e0d)
 
 
 **2. Acessar a interface web**
