@@ -107,6 +107,7 @@ Após fazer os ajustes necessários, o arquivo .env ficará assim:
 docker compose up -d
 ```
 
+![image](https://github.com/user-attachments/assets/dc8b7e18-ccc9-48c0-b494-249c0c8b1099)
 
 
 
