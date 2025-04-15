@@ -1,6 +1,6 @@
 <h1 align="center">
 
-![Sem título](https://github.com/user-attachments/assets/f74dc857-6ceb-412a-9286-3d957354ac13)
+[![Sem título](https://github.com/user-attachments/assets/f74dc857-6ceb-412a-9286-3d957354ac13)](https://filigran.io/solutions/open-cti/)
 
 OpenCTI (Cyber Threat Intelligence)
 </h1>
@@ -8,14 +8,13 @@ OpenCTI (Cyber Threat Intelligence)
 
 <h4 align="center">
   
-[Shuffle](https://shuffler.io/) é uma plataforma de automação de segurança cibernética que permite orquestrar, automatizar e responder a incidentes de forma eficiente. Ele se enquadra na categoria de ferramentas SOAR (Security Orchestration, Automation, and Response), integrando diversos sistemas de segurança e facilitando a criação de fluxos de trabalho automatizados (playbooks) para lidar com ameaças.
-
+[OpenCTI](https://filigran.io/solutions/open-cti/) é uma plataforma open source desenvolvida para auxiliar organizações na gestão de informações de inteligência sobre ameaças cibernéticas (CTI). Criada pela empresa Filigran, a plataforma permite estruturar, armazenar, organizar e visualizar dados técnicos e não técnicos relacionados a ameaças digitais, como indicadores de comprometimento (IoCs), táticas, técnicas e procedimentos (TTPs), grupos de ameaças, campanhas e vulnerabilidades.​
 </h4>
 
-## 📌 Como instalar o Shuffle?
+## 📌 Como instalar o OpenCTI?
 
 Existem duas formas de realizar a instalação:
 
 **1. Instalação manual:** Siga as instruções no arquivo [install-guide.md](https://github.com/VieiraSantosz/shuffle-guide/blob/main/install-guide.md) para realizar a instalação passo a passo.
 
-**2. Usando script:** Acesse a pasta [script](https://github.com/VieiraSantosz/shuffle-guide/tree/main/script), faça o download do script install-grafana.sh, e siga as orientações de uso.
+**2. Usando script:** Acesse a pasta [script](https://github.com/VieiraSantosz/shuffle-guide/tree/main/script), faça o download do script install_opencti.sh, e siga as orientações de uso.
