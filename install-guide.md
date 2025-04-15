@@ -1,6 +1,7 @@
 <h1 align="center">
 
 [![Sem título](https://github.com/user-attachments/assets/f74dc857-6ceb-412a-9286-3d957354ac13)](https://filigran.io/solutions/open-cti/)
+
 Guia de Instalação do OpenCTI
 
 </h1>
@@ -77,7 +78,8 @@ cp .env.sample .env
 nano .env
 ```
 
-![mceclip0](https://github.com/user-attachments/assets/c133b282-ae59-4561-a4f6-0b6524ded6f4)
+![image](https://github.com/user-attachments/assets/16889bec-0592-4613-aa3a-1893b09faed8)
+
 
 Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 
@@ -96,7 +98,6 @@ Ajuste que precisam ser feitos:
 
 Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
-![mceclip1](https://github.com/user-attachments/assets/37611e3d-5a21-4980-9edd-d9d3b1043245)
 
 **3. Iniciar os serviços do OpenCTI**
 
