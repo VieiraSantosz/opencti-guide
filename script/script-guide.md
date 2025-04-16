@@ -71,7 +71,7 @@ Após a instalação, o script fornecerá o link de acesso à interface web. Gua
 ## Primeiro acesso à plataforma
 **1. Acessar a interface web**
 
-Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do OpenCTI utilizando o IP da sua máquina seguido da porta 8080.
+Abra o navegador e acesse a interface web do OpenCTI utilizando o IP da sua máquina seguido da porta 8080.
 ```bash
 http://<IP-do-Servidor:8080>
 ```
