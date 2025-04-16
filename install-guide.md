@@ -118,7 +118,7 @@ docker compose up -d
 
 **1. Login de acesso**
 
-Para consultar suas credenciais iniciais (e-mail e senha do admin), abra o arquivo .env com o seguinte comando:
+Para consultar suas credenciais iniciais **(e-mail e senha do admin)**, abra o arquivo .env com o seguinte comando:
 ```bash
 cat .env
 ```
