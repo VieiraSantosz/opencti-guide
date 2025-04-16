@@ -130,6 +130,7 @@ Seu login e senha de acesso serão as duas primeiras informações do arquivo .e
 
 
 **2. Acessar a interface web**
+
 Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do OpenCTI:
 ```bash
 http://<IP-do-Servidor:8080>
