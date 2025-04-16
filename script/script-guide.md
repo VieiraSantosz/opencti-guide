@@ -63,7 +63,7 @@ Agora, execute o script para iniciar a instalação do Grafana.
 
 Após a instalação, o script fornecerá o link de acesso à interface web. Guarde essa informação, pois você precisará dela para acessar a plataforma do OpenCTI.
 
-![image](https://github.com/user-attachments/assets/8b7c7869-e991-4aa3-99fa-32b4d8059421)
+![image](https://github.com/user-attachments/assets/21a42705-db4f-40b7-b0cd-a09d8e2610ec)
 
 
 
