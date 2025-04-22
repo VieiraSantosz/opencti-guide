@@ -84,6 +84,8 @@ nano .env
 
 ![image](https://github.com/user-attachments/assets/9b38afe3-2eb7-48e3-9261-26e12c66321a)
 
+<br>
+
 
 Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 
@@ -97,11 +99,14 @@ Serão configuradas as seguintes variáveis para o funcionamento do OpenCTI:
 | `MINIO_ROOT_PASSWORD`            | Senha de root do serviço MinIO (arquivos)  | `SenhaMinIO@123`                          |
 | `RABBITMQ_DEFAULT_PASS`          | Senha padrão do serviço RabbitMQ           | `SenhaRabbit@123`                         |
 
+<br>
+
 
 Após fazer os ajustes necessários, o arquivo .env ficará assim:
 
 ![image](https://github.com/user-attachments/assets/f22407a8-fc87-4fad-af4a-9f8812e97a91)
 
+<br>
 
 **3. Iniciar os serviços do OpenCTI**
 
@@ -136,7 +141,6 @@ Abra o navegador e acesse a interface web do OpenCTI utilizando o IP da sua máq
 ```bash
 http://<IP-do-Servidor:8080>
 ```
-
 
 **3. Login inicial**
 
