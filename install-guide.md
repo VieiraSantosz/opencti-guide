@@ -21,6 +21,7 @@ Antes de iniciar a instalação, verifique se o seu servidor atende aos seguinte
 - **Mínimo de memória RAM:** 8 GB
 - **Mínimo de CPU:** 4 CPU
 
+<br>
 
 ## Instalação do Docker
 
@@ -60,6 +61,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 **Nota**: Verifique se o serviço do Docker está ativo com **sudo systemctl status docker**.
 
+<br>
 
 ## Instalação do OpenCTI
 
@@ -112,7 +114,7 @@ docker compose up -d
 
 **Nota:** O processo pode levar alguns minutos na primeira execução, pois o Docker precisará baixar as imagens e realizar a configuração inicial. Aguarde até que todos os serviços estejam ativos.
 
-
+<br>
 
 ## Primeiro acesso à plataforma
 
@@ -126,7 +128,6 @@ cat .env
 Seu login e senha de acesso serão as duas primeiras informações do arquivo .env.
 
 ![image](https://github.com/user-attachments/assets/65bf2539-ca23-4e38-bb58-aedd142661b4)
-
 
 
 **2. Acessar a interface web**
@@ -150,6 +151,7 @@ Depois de acessar o sistema, você poderá começar a explorar os recursos e cus
 
 ![image](https://github.com/user-attachments/assets/f3a49698-13aa-424b-ad18-68681b18a35c)
 
+<br>
 
 ## Solução de Problemas
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
